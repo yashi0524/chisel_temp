@@ -1,0 +1,176 @@
+$date
+2022-05-25T07:38+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module simpleModule $end
+ $var wire 8 ! const_1 $end
+ $var wire 8 ' const_3 $end
+ $var wire 10 * io_in_a $end
+ $var wire 8 + const_0 $end
+ $var wire 10 / io_in_c $end
+ $var wire 1 0 clock $end
+ $var wire 1 2 fir_1 $end
+ $var wire 8 4 const_2 $end
+ $var wire 1 5 mac_1 $end
+ $var wire 10 7 io_out_a $end
+ $var wire 1 9 reset $end
+ $var wire 10 < io_in_b $end
+  $scope module mac_1 $end
+   $var wire 8 $ io_in_a $end
+   $var wire 8 - io_in_c $end
+   $var wire 8 1 io_out_a $end
+   $var wire 8 : io_in_b $end
+  $upscope $end
+  $scope module fir_1 $end
+   $var wire 1 " io_valid $end
+   $var wire 8 # taps_3 $end
+   $var wire 8 % io_consts_0 $end
+   $var wire 8 & io_consts_3 $end
+   $var wire 8 ( taps_2 $end
+   $var wire 8 ) io_in $end
+   $var wire 1 , reset $end
+   $var wire 8 . io_consts_2 $end
+   $var wire 8 3 taps_1 $end
+   $var wire 8 6 io_consts_1 $end
+   $var wire 8 8 io_out $end
+   $var wire 1 ; clock $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0;
+b00000000 1
+b0000000000 /
+b00000000 +
+0"
+b00000000 -
+09
+b0000000000 *
+b00000000 %
+02
+b00000000 &
+b00000000 '
+b00000000 (
+05
+b00000000 )
+b00000000 !
+b0000000000 <
+b00000000 8
+b00000000 #
+00
+b00000000 $
+b00000000 :
+b0000000000 7
+b00000000 3
+b00000000 4
+0,
+b00000000 6
+b00000000 .
+$end
+#0
+b00000001 !
+b00000001 %
+b00000001 4
+1"
+b00000001 .
+b00000001 &
+19
+b00000001 '
+b00000001 6
+b00000001 +
+1,
+#1
+10
+1;
+#6
+b00000010 -
+b0000000011 <
+b0000001110 7
+b0000000010 /
+b00001110 )
+00
+b00001110 1
+b00001110 8
+b0000000100 *
+09
+b00000100 $
+b00000011 :
+0,
+0;
+#11
+b00001110 3
+10
+b00011100 8
+b0000011100 7
+1;
+#16
+00
+0;
+#21
+10
+b00101010 8
+b00001110 (
+b0000101010 7
+1;
+#26
+00
+0;
+#31
+10
+b00111000 8
+b00001110 #
+b0000111000 7
+1;
+#36
+00
+0;
+#41
+10
+1;
+#46
+00
+0;
+#51
+10
+1;
+#56
+00
+0;
+#61
+10
+1;
+#66
+00
+0;
+#71
+10
+1;
+#76
+00
+0;
+#81
+10
+1;
+#86
+00
+0;
+#91
+10
+1;
+#96
+00
+0;
+#101
+10
+1;
+#106
+00
+b0000000000 <
+b0000000000 *
+b0000000000 /
